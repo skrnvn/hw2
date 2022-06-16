@@ -4,23 +4,23 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>JS Playground 2.0</title>
   </head>
   <body>
     <script>
-      //   const myNum = 683;
+      const myNum = 683;
 
-      //   console.log(myNum.toString(16));
-      //   console.log(myNum.toString(2));
+      console.log(myNum.toString(16));
+      console.log(myNum.toString(2));
 
-      //   const userNum = prompt("Please enter your number");
+      const userNum = parseFloat(prompt("Please enter your number"));
 
-      //   console.log(`Your number is ${userNum}`);
+      console.log(`Your number is ${userNum}`);
 
-      //   console.log(userNum + 2);
-      //   console.log(userNum - 2);
-      //   console.log(userNum * 2);
-      //   console.log(userNum / 2);
+      console.log(userNum + 2);
+      console.log(userNum - 2);
+      console.log(userNum * 2);
+      console.log(userNum / 2);
 
       let randomNum = 0.51000002;
       console.log(parseFloat(randomNum.toFixed(2)) + 2);
@@ -49,7 +49,7 @@
       console.log(res4, res5, res6); // false, false, true
 
       console.log(res1 === res2 || res2 === res3); // true, true
-      console.log(res4 === res5 && res5 === res6); // false, false
+      console.log(res4 === res5 && res5 <= res6); // false, true
     </script>
   </body>
 </html>
